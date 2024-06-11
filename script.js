@@ -1,4 +1,6 @@
-const token = "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";
+require('dotenv').config();
+
+const token = process.env.ACESS_TOKEN;
 const inputTxt = document.getElementById("input");
 const image = document.getElementById("image");
 const button = document.getElementById("btn");
