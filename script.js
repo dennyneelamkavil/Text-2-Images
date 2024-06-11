@@ -1,6 +1,7 @@
 // require('dotenv').config();
 
-// const ACESS_TOKEN = process.env.ACESS_ACESS_TOKEN;
+// const ACESS_TOKEN = process.env.ACESS_TOKEN;
+let ACESS_TOKEN
 const inputTxt = document.getElementById("input");
 const image = document.getElementById("image");
 const button = document.getElementById("btn");
